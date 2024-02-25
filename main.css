@@ -98,9 +98,12 @@ p {
 @media (max-width: 767px) {
   .main {
     padding: 20px;
-    margin: 140px auto;
+    margin: 100px auto;
   }
   .attribution {
-    bottom: 50px;
+    position: static;
+    transform: translateX(0);
+    width: 300px;
+    margin: auto;
   }
 }
