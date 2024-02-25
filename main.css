@@ -26,7 +26,7 @@ p {
 .main {
   background-color: var(--dark-grey);
   width: 400px;
-  margin: 180px auto;
+  margin: 180px auto 100px;
   text-align: center;
   border-radius: 15px;
   padding: 30px 40px;
@@ -90,6 +90,9 @@ p {
   transform: translateX(-50%);
   color: white;
   line-height: 1.7;
+  position: static;
+  transform: translateX(0);
+  margin: 40px auto;
 }
 .attribution a {
   color: var(--green);
@@ -98,7 +101,7 @@ p {
 @media (max-width: 767px) {
   .main {
     width: 90%;
-    margin: 80px auto 160px;
+    margin: 80px auto;
     padding: 20px;
   }
   .attribution {
@@ -107,6 +110,9 @@ p {
     width: 300px;
     margin: auto; */
     width: 250px;
-    bottom: 60px;
+    /* bottom: 60px; */
+    /* position: static;
+    transform: translateX(0);
+    margin: 40px auto; */
   }
 }
